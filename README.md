@@ -36,6 +36,8 @@ Quoted instructions from the Lab 2 assignment on Canvas:
 * [CodeFellows provided .gitignore code](https://github.com/codefellows/seattle-code-201d106/blob/main/configs/.gitignore)
 * [Default 201 README template](https://codefellows.github.io/code-201-guide/curriculum/class-02/README-template.html)
 * [JavaScript Style Guide.](https://javascript.info/coding-style#syntax)
+* [Eric Meyer’s reset.css file ](https://meyerweb.com/eric/tools/css/reset/)
+
 ### Lighthouse Accessibility Report Score
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
