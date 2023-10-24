@@ -1,0 +1,17 @@
+header {
+    background-color: #4f0261;
+    color: white;
+    margin: 5px;
+    border: black solid 10px;
+
+}
+
+
+
+footer {
+    background-color: #4f0261;
+    color: white;
+    height: 20px;
+    margin: 5px;
+    border: black solid 5px;
+}
