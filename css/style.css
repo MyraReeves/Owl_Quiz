@@ -3,8 +3,19 @@ header {
     color: white;
     margin: 5px;
     border: black solid 10px;
-
 }
+
+
+.casket1 {
+    border: #972d59 solid 5px;
+}
+
+.casket2 {
+    width: 30%;
+    border: #972d59 solid 5px;
+}
+
+
 
 
 
