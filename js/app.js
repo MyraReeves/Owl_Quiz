@@ -3,7 +3,7 @@
 let nme = prompt('Who goes there?  Please tell me your name');
 console.log('The user said their name is ' + nme);
 if (nme == 'Badger') {
-alert('Awwww! Hey, baby!!! New questions have been added! Answer with either "yes" or "no" for the next few until you get to those new ones. I love you!')
+alert('Awwww! Hey, baby!!! New questions have been added at the end!  I love you!')
 }
 else {
 alert('Hello there ' + nme + '!  I heard you came here to learn more about me.  So let us play a guessing game!  Please answer each of the following questions with either "yes" or "no"');

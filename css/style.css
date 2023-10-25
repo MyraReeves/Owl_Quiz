@@ -6,13 +6,21 @@ header {
 }
 
 
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .casket1 {
     border: #972d59 solid 5px;
+    margin: 1%;
 }
 
 .casket2 {
     width: 30%;
     border: #972d59 solid 5px;
+    margin: 5%;
 }
 
 
