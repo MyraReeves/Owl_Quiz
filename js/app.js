@@ -1,3 +1,4 @@
+'use strict';
 
 let nme = prompt('Who goes there?  Please tell me your name');
 console.log('The user said their name is ' + nme);
