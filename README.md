@@ -40,7 +40,9 @@ Quoted instructions from the Lab 2 assignment on Canvas:
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+* 100%  Woot!
+
+![A screenshot of the 100% score from Lighthouse](img/ResizedLighthouseScreenshot.jpg))
 
 ### Reflections and Comments
 
