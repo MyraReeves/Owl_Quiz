@@ -5,9 +5,13 @@ header {
     border: black solid 10px;
 }
 
-
+h1 {
+    font-size: 40px;
+    color: #4f0261;
+}
 
 h2 {
+    font-size: 30px;
     text-align: center;
     text-decoration: underline;
 }
