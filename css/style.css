@@ -5,6 +5,10 @@ header {
     border: black solid 10px;
 }
 
+ul {
+    padding-left: 10px;
+}
+
 h1 {
     font-size: 40px;
     color: #4f0261;
