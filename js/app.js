@@ -81,36 +81,36 @@
 // }
 
 
-let maximum = 4;
-while (maximum > 0) {
-    let numberGuess = prompt('Guess a number between 1 and 10');
-    numberGuess = parseInt(numberGuess);
-    maximum -= 1;
+// let maximum = 4;
+// while (maximum > 0) {
+//     let numberGuess = prompt('Guess a number between 1 and 10');
+//     numberGuess = parseInt(numberGuess);
+//     maximum -= 1;
 
-    if (numberGuess === 9) {
-        alert('Great job! You guessed right!  The correct number was 9!');
-        break;
-    }
-    else if (numberGuess < 9 && maximum === 0) {
-        alert('The correct answer was 9');
-    }
-    else if (numberGuess > 9 && maximum === 0) {
-        alert('The correct answer was 9');
-    } 
-    else if (numberGuess > 9) {
-        alert('You aimed too high! Try guessing a lower number');
-    } 
-    else {
-        alert('Too low! Try guessing higher');
-    }
-    // Commenting these next couple of lines out since it isn't a requirement in the assignment and it's not working right and there isn't enough time to get help with learning what the problem is or how to fix it.
-    // if (maximum > 0) {
-    //     alert('You have' + maximum + 'chances left')
-    // }
-    // else {
-    //     alert('Sorry, but you ran out of chances.  The correct number was 9')
-    // }
-}
+//     if (numberGuess === 9) {
+//         alert('Great job! You guessed right!  The correct number was 9!');
+//         break;
+//     }
+//     else if (numberGuess < 9 && maximum === 0) {
+//         alert('The correct answer was 9');
+//     }
+//     else if (numberGuess > 9 && maximum === 0) {
+//         alert('The correct answer was 9');
+//     } 
+//     else if (numberGuess > 9) {
+//         alert('You aimed too high! Try guessing a lower number');
+//     } 
+//     else {
+//         alert('Too low! Try guessing higher');
+//     }
+//     // Commenting these next couple of lines out since it isn't a requirement in the assignment and it's not working right and there isn't enough time to get help with learning what the problem is or how to fix it.
+//     // if (maximum > 0) {
+//     //     alert('You have' + maximum + 'chances left')
+//     // }
+//     // else {
+//     //     alert('Sorry, but you ran out of chances.  The correct number was 9')
+//     // }
+// }
 
 
 
@@ -153,28 +153,24 @@ while (maximum > 0) {
 
 
 
-// let swords = ["rapier", "sidesword", "cutlass" , "recurved bow"];
+let swords = ["rapier", "sidesword", "cutlass" , "recurved bow"];
 
-// swords.push("rapier");
-// swords.push("swidesword");
-// swords.push("cutlass");
-// let maxAttempts = 6;
+let maxAttempts = 6;
 
 
-// for (let attempt = 1; atttempt <== maxAttempts; attempt++){
-//     // let guess = prompt("")
-// }
-// if (swords.includes(guess)) {
-// alert("Congratulations!  You guessed one of them correctly!");
-// }
-// else {
-// alert("Keep guessing!");
-// }
-// (atteno > maxAttempts) {
-//     alert("Sorry but you've run out of guess opportunities.")
-// }
+for (let attempt = 1; attempt <= maxAttempts; attempt++){
+    let guess = prompt('Guess a weapon.');
 
+    if (swords.includes(guess)) {
+        alert("Congratulations! You guessed one of them correctly!");
+        break;
+    }
+    else {
+        alert("Keep guessing!");
+    }
+}
 
+alert('All of the correct possible answers were: ' + swords);
 
 
 
