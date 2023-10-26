@@ -112,11 +112,11 @@ while (maximum > 0) {
     }
 }
 
-let swords = ["rapier", "sidesword", "cutlass" , "recurved bow"];
+let swords = ["rapier", "sidesword", "cutlass" , "recurved bow" , "thrown weapons"];
 let maxAttempts = 6;
 
 for (let attempt = 1; attempt <= maxAttempts; attempt++){
-    let guess = prompt('Guess a weapon.');
+    let guess = prompt('Guess a weapon I have received at least a small amount of training in the use of.');
 
     if (swords.includes(guess)) {
         alert("Congratulations! You guessed one of them correctly!");
@@ -128,6 +128,6 @@ for (let attempt = 1; attempt <= maxAttempts; attempt++){
     }
 }
 
-alert('All of the correct possible answers were: ' + swords);
+alert('The correct possible answers were: ' + swords);
 
-alert('The number of questions you got correct was ' + counter + ' out of 7!');
+alert('The number of questions you got correct today was ' + counter + ' out of 7!');

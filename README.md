@@ -29,6 +29,22 @@ Quoted instructions from the Lab 2 assignment on Canvas:
 >* Your JS file must contain a `'use strict'` declaration at the top, and your javascript file must be linked in your html file as an external script file.
 >* Make sure that all code is cleanly written with correct indentation and syntax. Look at an example [JavaScript Style Guide](https://javascript.info/coding-style#syntax). Note that your JS must pass the rules in the linter that you installed.
 
+<br>
+
+<br>
+
+Quoted instructions from the Lab 3 assignment on Canvas:
+
+>Continue to build off of your lab 02 by adding additional functionality to your About Me Guessing Game. Work in the same repository as you did for Lab 2, and modify your README.md file to describe your project with the new features you are adding.
+>
+>As a user, I would like to view a series of data related to the site owners interest so that the I can quickly view more information about them. Create a “Top Ten” at the bottom of your HTML page as an ordered list in HTML. Some ideas that you can include could be top ten movies, top ten favorite places, or top ten places to visit. You may choose to do whatever top ten list that you wish. Convert your work experience and education summary into an unordered list using HTML
+>
+>As a user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner. Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number. Indicates through an alert if the guess is “too high” or “too low”. It should give the user exactly four opportunities to get the correct answer. After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+>
+>As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game. Add a 7th question that has multiple possible correct answers that are stored in an array. Give the user 6 attempts to guess the correct answer. The guesses will end once the user guesses a correct answer or they run out of attempts. Display all the possible correct answers to the user. Consider using a loop of some sort for this question.
+>
+>As a user, I would like to know my final score so that I can know how well I did. Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked.
+
 ### Links and Resources
 
 * [Setting Up A New 201 Code Project](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup)
@@ -40,9 +56,13 @@ Quoted instructions from the Lab 2 assignment on Canvas:
 
 ### Lighthouse Accessibility Report Score
 
-* 100%  Woot!
+* Lab 2 score = 100%  Woot!
 
-![A screenshot of the 100% score from Lighthouse](img/ResizedLighthouseScreenshot.jpg))
+![A screenshot of today's 100% score from Lighthouse](img/ResizedLighthouseScreenshot.jpg)
+
+* Lab 3 score = Still at 100%  Yeay!
+
+![A screenshot of Lab 3's score from Lighthouse](img/ResizedLighthouse2.jpg)
 
 ### Reflections and Comments
 
