@@ -81,3 +81,75 @@ alert('That is not a valid response, ' + nme + '.  You were supposed to reply wi
 }
 
 
+let maximum = 4;
+while(maximum > 0){
+let numberguess = prompt('Guess a number between 1 and 10');
+maximum -= 1;
+}
+if (numberguess == 9) {
+    alert('Great job! You guessed right!  The correct number was 9!');
+}
+else if (numberguess < 9) {
+alert('Too low! Try guessing higher')
+}
+else {
+alert('You aimed too high!  Try guessing a lower number')
+}
+if (maximum > 0) {
+alert('You have' + maximum + 'chances left')
+}
+else {
+    alert('Sorry, but you ran out of chances.  The correct number was 9')
+}
+
+function number() {
+    let numberGuesses = prompt('Guess a number between 1 and 10');
+
+    if (numberguess == 9) {
+        alert('Great job! You guessed right!  The correct number was 9!');
+    }
+    else if (numberGuesses < '9') {
+        numberGuesses = prompt('Too low! Try guessing higher');
+    }
+    else {
+        alert('Sorry, but you ran out of chances.  The correct number was 9')
+    }
+}
+
+// for (let attempt = 1; atttempt <== maxAttempts; attempt++){
+//     // let guess = prompt("")
+// }
+// if (swords.includes(guess)) {
+// alert("Congratulations!  You guessed one of them correctly!");
+// }
+// else {
+// alert("Keep guessing!");
+// }
+// (atteno > maxAttempts) {
+//     alert("Sorry but you've run out of guess opportunities.")
+// }
+
+
+
+// let swords = ["rapier", "sidesword", "cutlass" , "recurved bow"];
+// let maxAttempts = 6;
+
+// for (let attempt = 1; atttempt <== maxAttempts; attempt++){
+//     // let guess = prompt("")
+// }
+// if (swords.includes(guess)) {
+// alert("Congratulations!  You guessed one of them correctly!");
+// }
+// else {
+// alert("Keep guessing!");
+// }
+// (atteno > maxAttempts) {
+//     alert("Sorry but you've run out of guess opportunities.")
+// }
+
+
+
+
+
+// for(let i = 0; i < swords; i+=1);
+
