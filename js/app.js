@@ -84,13 +84,13 @@ else {
 let maximum = 4;
 while (maximum > 0) {
     let numberguess = prompt('Guess a number between 1 and 10');
-    let numberguess2 = parseInt(numberguess);
+    numberguess = parseInt(numberguess);
     maximum -= 1;
 
-    if (numberguess2 === 9) {
+    if (numberguess === 9) {
         alert('Great job! You guessed right!  The correct number was 9!');
     }
-    else if (numberguess2 < 9) {
+    else if (numberguess < 9) {
         alert('Too low! Try guessing higher')
     }
     else {
