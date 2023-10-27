@@ -80,10 +80,10 @@ if (military === 'no') {
     counter += 1;
 }
 else if (military === 'yes') {
-    alert('Okay, I have to admit that that one was a bit of a trick question. I grew up spending a lot of my early childhood on U.S. military bases, and a couple of my family members have worked as civilian contractors, but I have not personally had any affiliation nor involvement in military service.  So you got the question wrong. But the good news, ' + nme + ', is that you are now done with the guessing game!  That was the last question. The portal to my page is now open!');
+    alert('Okay, I have to admit that that one was a bit of a trick question. I grew up spending a lot of my early childhood on U.S. military bases, and a couple of my family members have worked as civilian contractors, but I have not personally had any affiliation nor involvement in military service.  So you got the question wrong, but you still have two more chances to improve your score!');
 }
 else {
-    alert('That is not a valid response, ' + nme + '.  You were supposed to reply with either the word "yes" or the word "no"! But now the game is over.  That was the last question. So continue onward to my page!');
+    alert('That is not a valid response, ' + nme + '.  You were supposed to reply with either the word "yes" or the word "no"! Since yes/no questions appear to not be your thing, how about we move on to a differnt type of question that might be more fun for you?');
 }
 
 
@@ -130,4 +130,4 @@ for (let attempt = 1; attempt <= maxAttempts; attempt++){
 
 alert('The correct possible answers were: ' + swords);
 
-alert('The number of questions you got correct today was ' + counter + ' out of 7!');
+alert('That was the last question. Thank you for playing, ' + nme + '!  The number of questions you got correct today was ' + counter + ' out of 7!  Continue onward!  The portal to my page is now open to you!');

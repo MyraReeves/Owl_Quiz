@@ -22,9 +22,11 @@ h2 {
 }
 
 .casket1 {
+    width: 500px;
     border: #972d59 solid 5px;
     margin: 1%;
     padding: 20px;
+    text-align: left;
 }
 
 .casket2 {
