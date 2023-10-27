@@ -112,7 +112,7 @@ while (maximum > 0) {
     }
 }
 
-let swords = ["rapier", "sidesword", "cutlass" , "recurved bow" , "thrown weapons"];
+let swords = ["rapier", "sidesword", "cutlass" , "recurve bow" , "thrown weapons"];
 let maxAttempts = 6;
 
 for (let attempt = 1; attempt <= maxAttempts; attempt++){
