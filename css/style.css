@@ -7,6 +7,8 @@ header {
 }
 
 .topBox {
+    display:inline-block;
+    width: 700px;
     margin: 5%;
     margin-bottom: 40px;
 }
@@ -36,6 +38,7 @@ h2 {
 }
 
 .casket1 {
+    display:inline-block;
     width: 510px;
     border: #972d59 solid 5px;
     margin: 1%;
