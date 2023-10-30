@@ -45,6 +45,12 @@ Quoted instructions from the Lab 3 assignment on Canvas:
 >
 >As a user, I would like to know my final score so that I can know how well I did. Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked.
 
+~.~.~ Lab 4 still in progress. This area to be filled in after Lab 4 completion~.~.~
+
+Quoted instructions from the Lab 5b assignment on Canvas:
+
+>Deploy your app to GitHub Pages and add any additional final touches to your CSS. Run a Lighthouse report making sure your site scores between the 50-65 range and add a screenshot of your score to your README.md. 
+
 ### Links and Resources
 
 * [Setting Up A New 201 Code Project](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup)
@@ -63,6 +69,10 @@ Quoted instructions from the Lab 3 assignment on Canvas:
 * Lab 3 score = Still at 100%  Yeay!
 
 ![A screenshot of Lab 3's score from Lighthouse](img/ResizedLighthouse2.jpg)
+
+* Lab 5b score = 100%
+
+![A screenshot of Lab 5b's accessibility score from Lighthouse](img/Lighthouse10-30.jpg)
 
 ### Reflections and Comments
 
