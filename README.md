@@ -33,6 +33,8 @@ Quoted instructions from the Lab 2 assignment on Canvas:
 
 <br>
 
+### Lab 3
+
 Quoted instructions from the Lab 3 assignment on Canvas:
 
 >Continue to build off of your lab 02 by adding additional functionality to your About Me Guessing Game. Work in the same repository as you did for Lab 2, and modify your README.md file to describe your project with the new features you are adding.
@@ -45,7 +47,80 @@ Quoted instructions from the Lab 3 assignment on Canvas:
 >
 >As a user, I would like to know my final score so that I can know how well I did. Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked.
 
-~.~.~ Lab 4 still in progress. This area to be filled in after Lab 4 completion~.~.~
+<br>
+
+<br>
+
+### Lab 4
+
+Pair Partner:  Immanuel Shin
+
+Since I had not yet finished Lab 3 at the time of this lab, the instructor gave permission for my code being worked on to be my Lab 3 assignment instead of the new coding challenges above.
+
+I was Navigator (I said what to write while he was the one writing it) on my Lab 3 assignment: https://github.com/Myra-Sea/AboutMeLinks to an external site. 
+
+I was Driver (I wrote the code that he told me to write) on his Lab 4 assignment:  https://github.com/Myra-Sea/PairProgrammingLinks to an external site. 
+
+Quoted instructions from the Lab 3 assignment on Canvas:
+
+>**Problem Domain**
+>
+>When available, your instructor will pair you with another student for this exercise in pair programming. The two of you will work on and extend each other’s About Me guessing game projects. Be sure to read and follow these instructions for pair programming very carefully.
+>
+>**Instructions for pair programming**
+>
+>Review all four sections below for lab. Pair program with your assigned partner to refactor each codebase. Equally divide your lab time so that you and your partner spend the same amount of time in each other’s code. Time management is critical.
+>
+>1. How To Get Code Ready For Work
+>
+>Be sure to follow these instructions VERY carefully.
+>
+>Note: Before starting these steps, make sure that both of your repositories are ‘clean’: in other words, everything is committed and pushed so that both the remote and local versions of your projects are in sync. This will prevent potential problems later.
+>
+>Decide whose code you will work on first. The owner of that code (who will be the Navigator) provides the link to their GitHub repo to the other member of the pair (who will be the Driver). You can send this link over Slack.
+>
+>The Driver follows the link to that repo and creates a fork of the repo in GitHub like we did in class.
+>
+>The Driver then goes to their fork of the repo (the URL should have the Driver’s GitHub name in it) and copies the link to that repo (the link have the Driver’s GitHub name in it and should end in .git).
+>
+>Inside of the Driver’s main work directory on their laptop, make a directory with your partner’s name and then navigate (cd) into it. From there, enter the command git clone the-link-you-copied. That will create a local version of the forked repo on the Driver’s laptop.
+>
+>cd into that directory and enter code . in the terminal to open all of the files in VSCode.
+>
+>**Start working on the code!**
+>
+>2. Extend and Refine
+>
+>You’ll be making some edits to each other’s sites. After each bit of work is completed (in other words, after each successful modification of a single question), be sure to do an add-commit-push cycle (a-c-p) to place the code on GitHub and preserve a versioned history of your work.
+>
+>Move the logic for all questions into functions: In this class we learned about functions, and now we’ll move the logic for the individual questions into separate functions, and call those functions to run the game.
+>
+>In its most basic sense, this is pretty simple and straightforward: ‘wrap’ the logic and variables for a given question with function someFuncNameYouChoose() { at the beginning, and add a closing curly brace } at the end. To make the function execute, just call it afterwards: someFuncNameYouChoose(); After completing this step the game should behave exactly as it did before. a-c-p
+>
+>Update the README file: In the README file, add in the names of the Driver and Navigator and indicate that the code was worked on together. This is basic record-keeping so that you can keep up with how the code has been edited in a user-friendly format. a-c-p
+>
+3. Push to GitHub; Make a Pull Request
+Once everything is finished, and the Driver has done the last edits and pushed them to GitHub, it’s time to send the edited code to the owner (who has been in the Navigator role the whole time, of course). We do this with a GitHub feature called a Pull Request, which we generally refer to as a PR.
+
+From the Driver’s repo that is a fork of the Navigator’s repo, hit the green button that says ‘Create pull request’.
+
+Follow the remaining steps as described onscreen and as shown here: https://help.GitHub.com/articles/using-pull-requests. (These instructions for doing a pull request from a forked repo to its source are deliberately vague, to give you practice in reading through instructions, trying things out, solving problems collaboratively, and getting guidance from documentation).
+
+The owner of the code (the Navigator) then goes to their GitHub repo for the project and accepts the pull request. After that, in terminal on their laptop, while in the same directory, enter the command ‘git pull origin main’ to retrieve the modified code from GitHub.
+
+When everything is finished for one person’s project, submit the links for the last pull request made from the Driver to the Navigator (in both cases) in the Canvas assignment.
+
+4. Pair Programming Basics
+In pair programming, there are two developers working on a single body of code on a single computer.
+One member of the pair is the Driver, and this person will be the one doing all of the actual typing work on the laptop. The Driver will be working on the Navigator’s code by way of forking and cloning the Navigator’s repository.
+The other member of the pair is the Navigator, and this person will work with only their voice and their thoughts.
+The Navigator does not touch the keyboard, nor does the Navigator work on their laptop “on the side”. The Navigator is fully engaged with the work that the pair is doing, typically using a piece of scratch paper to sketch diagrams, take notes, or list ideas. At most the Navigator uses their laptop to perhaps keep a copy of this assignment document open or to look up something needed to write the code, such as a reference page like MDN.
+Under no circumstances does the Navigator work on any code on their laptop: for the pair programming process to be effective, both parties must be fully engaged on the code they’re working on together.
+The lab time should be divided into two sections of approximately two hours each. At the halfway mark, you should swap roles and work on the other person’s code. Remember to watch the clock and determine the best point to swap roles.
+In the case of an odd number of students, one group will have three members and you should rotate through three roles: Driver, Navigator, Observer. Each person should take on each role one time. You will need to be even more mindful about watching the clock to ensure that equal time is devoted to all three projects.
+<br>
+
+<br>
 
 Quoted instructions from the Lab 5b assignment on Canvas:
 
