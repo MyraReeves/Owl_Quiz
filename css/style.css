@@ -29,7 +29,7 @@ header {
 }
 
 ul {
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 h1 {
@@ -39,27 +39,47 @@ h1 {
 
 h2 {
     font-size: 30px;
+    color: #4f0261;
     text-align: center;
     text-decoration: underline;
 }
 
-
-
-#gravesite {
-    width: 510px;
+sub {
+    font-size: 13px;
 }
-
 
 
 .casket1 {
     display: inline-block;
-    width: 510px;
+    width: 40%;
     border: #972d59 solid 5px;
-    margin: 1%;
+    margin-left: 1%;
     padding: 20px;
     text-align: left;
     font-size: 18px;
 }
+
+
+.caskets {
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+.gravesite {
+    display: block;
+    /* width: 510px; */
+    border: #972d59 solid 5px;
+    margin: 4%;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
 
 
 .casket2 {

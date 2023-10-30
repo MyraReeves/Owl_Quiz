@@ -57,6 +57,25 @@ else {
 }
 
 
+let countries = ["New Zealand" , "England" , "Iceland" , "Italy"];
+let maxTries = 4;
+
+for (let attempt = 1; attempt <= maxTries; attempt++){
+    let travel = prompt('In addition to the Americas, guess a country I have visited (I mean outside of an airport). You will have up to 4 tries to guess one right');
+
+    if (countries.includes(travel)) {
+        alert("Congratulations! You guessed one of them correctly!");
+        counter += 1;
+        break;
+    }
+    else {
+        alert("Keep guessing!");
+    }
+}
+
+alert('In addition to the Americas (Canada, Mexico, & Panama), I have also visited: ' + countries);
+
+
 let skydive = prompt('Have I ever jumped out of a perfectly good airplane in order to plummet thru the sky?');
 console.log('When asked to guess whether I have ever gone skydiving before, the user answered with ' + skydive);
 skydive = skydive.toLowerCase();
@@ -112,11 +131,11 @@ while (maximum > 0) {
     }
 }
 
-let swords = ["rapier", "sidesword", "cutlass" , "recurve bow" , "thrown weapons"];
+let swords = ["rapier" , "sidesword" , "cutlass" , "recurve bow" , "thrown weapons"];
 let maxAttempts = 6;
 
 for (let attempt = 1; attempt <= maxAttempts; attempt++){
-    let guess = prompt('Guess a weapon I have received at least a small amount of training in the use of.');
+    let guess = prompt('HEMA is a hobby of mine. Guess a weapon I have received at least a small amount of training in the use of.');
 
     if (swords.includes(guess)) {
         alert("Congratulations! You guessed one of them correctly!");
@@ -130,4 +149,4 @@ for (let attempt = 1; attempt <= maxAttempts; attempt++){
 
 alert('The correct possible answers were: ' + swords);
 
-alert('That was the last question. Thank you for playing, ' + nme + '!  The number of questions you got correct today was ' + counter + ' out of 7!  Continue onward!  The portal to my page is now open to you!');
+alert('That was the last question. Thank you for playing, ' + nme + '!  The number of questions you got correct today was ' + counter + ' out of 8!  Continue onward!  The portal to my page is now open to you!');
