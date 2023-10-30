@@ -6,15 +6,21 @@ header {
     border: black solid 10px;
 }
 
-.topBox {
+#topBox {
     display:inline-block;
-    width: 700px;
+    width: 80%;
     margin: 5%;
     margin-bottom: 40px;
 }
 
+#topBox img {
+    width: 25%;
+    float: left;
+    margin-right: 2%;
+}
 
-#intro {
+
+.intro {
     font-size: 18px;
     border: 10px;
     margin: 5px;
@@ -37,8 +43,16 @@ h2 {
     text-decoration: underline;
 }
 
+
+
+#gravesite {
+    width: 510px;
+}
+
+
+
 .casket1 {
-    display:inline-block;
+    display: inline-block;
     width: 510px;
     border: #972d59 solid 5px;
     margin: 1%;
@@ -46,6 +60,7 @@ h2 {
     text-align: left;
     font-size: 18px;
 }
+
 
 .casket2 {
     width: 326px;
