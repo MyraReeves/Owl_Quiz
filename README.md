@@ -55,13 +55,15 @@ Quoted instructions from the Lab 3 assignment on Canvas:
 
 Pair Partner:  Immanuel Shin
 
-Since I had not yet finished Lab 3 at the time of this lab, the instructor gave permission for my code being worked on to be my Lab 3 assignment instead of the new coding challenges above.
+Since I had not yet finished Lab 3 at the time of this lab, the instructor gave permission for my code being worked on to be my Lab 3 assignment instead of the new coding challenges.
 
 I was Navigator (I said what to write while he was the one writing it) on my Lab 3 assignment: https://github.com/Myra-Sea/AboutMeLinks to an external site. 
 
 I was Driver (I wrote the code that he told me to write) on his Lab 4 assignment:  https://github.com/Myra-Sea/PairProgrammingLinks to an external site. 
 
-Quoted instructions from the Lab 3 assignment on Canvas:
+<br>
+
+Quoted instructions from the Lab 4 assignment on Canvas:
 
 >**Problem Domain**
 >
@@ -99,32 +101,46 @@ Quoted instructions from the Lab 3 assignment on Canvas:
 >
 >Update the README file: In the README file, add in the names of the Driver and Navigator and indicate that the code was worked on together. This is basic record-keeping so that you can keep up with how the code has been edited in a user-friendly format. a-c-p
 >
-3. Push to GitHub; Make a Pull Request
-Once everything is finished, and the Driver has done the last edits and pushed them to GitHub, it’s time to send the edited code to the owner (who has been in the Navigator role the whole time, of course). We do this with a GitHub feature called a Pull Request, which we generally refer to as a PR.
-
-From the Driver’s repo that is a fork of the Navigator’s repo, hit the green button that says ‘Create pull request’.
-
-Follow the remaining steps as described onscreen and as shown here: https://help.GitHub.com/articles/using-pull-requests. (These instructions for doing a pull request from a forked repo to its source are deliberately vague, to give you practice in reading through instructions, trying things out, solving problems collaboratively, and getting guidance from documentation).
-
-The owner of the code (the Navigator) then goes to their GitHub repo for the project and accepts the pull request. After that, in terminal on their laptop, while in the same directory, enter the command ‘git pull origin main’ to retrieve the modified code from GitHub.
-
-When everything is finished for one person’s project, submit the links for the last pull request made from the Driver to the Navigator (in both cases) in the Canvas assignment.
-
-4. Pair Programming Basics
-In pair programming, there are two developers working on a single body of code on a single computer.
-One member of the pair is the Driver, and this person will be the one doing all of the actual typing work on the laptop. The Driver will be working on the Navigator’s code by way of forking and cloning the Navigator’s repository.
-The other member of the pair is the Navigator, and this person will work with only their voice and their thoughts.
-The Navigator does not touch the keyboard, nor does the Navigator work on their laptop “on the side”. The Navigator is fully engaged with the work that the pair is doing, typically using a piece of scratch paper to sketch diagrams, take notes, or list ideas. At most the Navigator uses their laptop to perhaps keep a copy of this assignment document open or to look up something needed to write the code, such as a reference page like MDN.
-Under no circumstances does the Navigator work on any code on their laptop: for the pair programming process to be effective, both parties must be fully engaged on the code they’re working on together.
-The lab time should be divided into two sections of approximately two hours each. At the halfway mark, you should swap roles and work on the other person’s code. Remember to watch the clock and determine the best point to swap roles.
-In the case of an odd number of students, one group will have three members and you should rotate through three roles: Driver, Navigator, Observer. Each person should take on each role one time. You will need to be even more mindful about watching the clock to ensure that equal time is devoted to all three projects.
+>3. Push to GitHub; Make a Pull Request
+>
+>Once everything is finished, and the Driver has done the last edits and pushed them to GitHub, it’s time to send the edited code to the owner (who has been in the Navigator role the whole time, of course). We do this with a GitHub feature called a Pull Request, which we generally refer to as a PR.
+>
+>From the Driver’s repo that is a fork of the Navigator’s repo, hit the green button that says ‘Create pull request’.
+>
+>Follow the remaining steps as described onscreen and as shown here: https://help.GitHub.com/articles/using-pull-requests. (These instructions for doing a pull request from a forked repo to its source are deliberately vague, to give you practice in reading through instructions, trying things out, solving problems collaboratively, and getting guidance from documentation).
+>
+>The owner of the code (the Navigator) then goes to their GitHub repo for the project and accepts the pull request. After that, in terminal on their laptop, while in the same directory, enter the command ‘git pull origin main’ to retrieve the modified code from GitHub.
+>
+>When everything is finished for one person’s project, submit the links for the last pull request made from the Driver to the Navigator (in both cases) in the Canvas assignment.
+>
+>4. Pair Programming Basics
+>
+>In pair programming, there are two developers working on a single body of code on a single computer.
+>
+>One member of the pair is the Driver, and this person will be the one doing all of the actual typing work on the laptop. The Driver will be working on the Navigator’s code by way of forking and cloning the Navigator’s repository.
+>
+>The other member of the pair is the Navigator, and this person will work with only their voice and their thoughts.
+>
+>The Navigator does not touch the keyboard, nor does the Navigator work on their laptop “on the side”. The Navigator is fully engaged with the work that the pair is doing, typically using a piece of scratch paper to sketch diagrams, take notes, or list ideas. At most the Navigator uses their laptop to perhaps keep a copy of this assignment document open or to look up something needed to write the code, such as a reference page like MDN.
+>
+>Under no circumstances does the Navigator work on any code on their laptop: for the pair programming process to be effective, both parties must be fully engaged on the code they’re working on together.
+>
+>The lab time should be divided into two sections of approximately two hours each. At the halfway mark, you should swap roles and work on the other person’s code. Remember to watch the clock and determine the best point to swap roles.
+>
+>In the case of an odd number of students, one group will have three members and you should rotate through three roles: Driver, Navigator, Observer. Each person should take on each role one time. You will need to be even more mindful about watching the clock to ensure that equal time is devoted to all three projects.
 <br>
 
 <br>
+
+### Lab 5
 
 Quoted instructions from the Lab 5b assignment on Canvas:
 
->Deploy your app to GitHub Pages and add any additional final touches to your CSS. Run a Lighthouse report making sure your site scores between the 50-65 range and add a screenshot of your score to your README.md. 
+>Apply finishing touches to your About Me web site. Make sure your final app meets all of the requirements for this project.
+>
+>Deploy your app to GitHub Pages and add any additional final touches to your CSS. Run a Lighthouse report making sure your site scores between the 50-65 range and add a screenshot of your score to your README.md. Make sure your app is complete and meets all of the requirements from the prior labs. Remove any commented out code or console logs including any commented out console logs that were used in the questionnaire.
+
+<br>
 
 ### Links and Resources
 
@@ -134,6 +150,8 @@ Quoted instructions from the Lab 5b assignment on Canvas:
 * [Default 201 README template](https://codefellows.github.io/code-201-guide/curriculum/class-02/README-template.html)
 * [JavaScript Style Guide.](https://javascript.info/coding-style#syntax)
 * [Eric Meyer’s reset.css file ](https://meyerweb.com/eric/tools/css/reset/)
+
+<br>
 
 ### Lighthouse Accessibility Report Score
 
@@ -149,7 +167,44 @@ Quoted instructions from the Lab 5b assignment on Canvas:
 
 ![A screenshot of Lab 5b's accessibility score from Lighthouse](img/Lighthouse10-30.jpg)
 
-### Reflections and Comments
+<Br>
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+<br>
+
+### 🤔💭 Reflections and Comments 🤔💭
+
+#### 📓 Lab 4 - Pair Programming Submission Notes:
+
+I worked with Immanuel Shin.
+Since I had not yet finished Lab 3 at the time of this lab, the instructor gave permission for my code being worked on to be my Lab 3 assignment instead of the new coding challenges above.
+
+I was Navigator (I said what to write while he was the one writing it) on my Lab 3 assignment: https://github.com/Myra-Sea/AboutMeLinks to an external site. 
+I was Driver (I wrote the code that he told me to write) on his Lab 4 assignment:  https://github.com/Myra-Sea/PairProgrammingLinks to an external site. 
+
+This was a great opportunity for me to learn from my fellow student!  Immanuel was exceptional at talking about the JavaScript situation in order to guide me towards what the solutions to my code should be (so that I could then tell him what code to write on my behalf) without ever giving me the solutions!  With his explanations of what he saw missing within my code, I solved how to finish the number guessing game, how to finish the array assignment, and how to add a counter at the end of my questions.
+
+I know I wasn't nearly as much help to him on his own code, due to my lack of knowledge.  In fact, I fear I may have slowed down his coding since he had to tell me what to do and wait for me to do it instead of him being able to directly do it himself.  However, he was very patient and empathetic towards me throughout our entire interaction. 💜 I hope that explaining things outloud to me helped him with gaining understanding.
+
+Thank you Immanuel!
+
+Time Spent:
+We worked on finishing my Lab 3 code for 1 hour.
+We spent the second hour on converting his yes/no questions into one function and using a for loop (Stretch Goal 2).
+We then spent slightly over one final hour on solving how to keep a tally of correct answers after having made that change above to his code, since that part of the Stretch Goal was the most difficult piece to solve.
+Total = Slightly over 3 hours total spent on this lab.
+
+That was within the amount of time I had expected to spend on it. 🙂
+
+<br>
+
+<Br>
+
+#### 📓 Lab 5 - Submission Notes:
+
+GitHub repo is at:  https://github.com/Myra-Sea/AboutMeLinks to an external site. 
+
+Deployed website is at:  https://myra-sea.github.io/AboutMe/Links to an external site. 
+
+I am now content with the visual layout of all the elements.  There is something odd going on with the font size, but it's not worth continuing to try to fix.  I had made it size 18px font (due to the accessibility video recommending that), and that was working for awhile, but then something at a later point seems to have overridden that command because it is no longer look that size anymore on my browsers.  Otherwise, I think all of the CSS is working how I had wanted it.
+
+Problem solving how to stack the boxes on top of each other but also side-by-side was a fun puzzle.  I enjoyed the opportunity the weekend offered to review CSS knowledge better.
