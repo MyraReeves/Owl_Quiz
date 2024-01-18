@@ -1,19 +1,19 @@
 # AboutMe
-201 project (starting with Lab 2 on 10/24/2023)
+A 201 project (starting with Lab 2 on 10/24/2023)
 
 ### 🦋 Author: Myra Reeves
 
 ## Project Name:  AboutMe Lab
 
 Quoted instructions from the Lab 2 assignment on Canvas:
->Build out an “About Me” webpage that quizzes the user on fun facts gives the user some basic information about who you are and where you came from.
+>Build out an “About Me” webpage that quizzes the user on fun facts which give the user some basic information about who you are and where you came from.
 >
 ><br>
 >
 >* Create an About Me guessing game that utilizes HTML, CSS, & JavaScript.
 >* Include on your HTML page a short biography, your education history, an overview of your job experience, and any goals that you may have.
->* Prompt the user a total of exactly five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity by normalizing the user input so that it can be validated (hint: look into the `.toUpperCase()` or `.toLowerCase()` functions). Be sure to let the user know if they answered the question correctly by alerting them with a response.
->* `Add console.log()` messages within your app to notify the user if they are correct. Before submitting, comment out (don’t delete) your `console.log()` messages and replace them with the `alerts()` to complete the project.
+>* Prompt the user a total of five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity by normalizing the user input so that it can be validated (hint: look into the `.toUpperCase()` or `.toLowerCase()` functions). Be sure to let the user know if they answered the question correctly by alerting them with a response.
+>* `Add console.log()` messages within your app to notify the user if they are correct. Before submitting this lab, comment out (don’t delete) your `console.log()` messages and replace them with `alerts()` to complete the project.
 >
 ><br>
 >
@@ -37,9 +37,11 @@ Quoted instructions from the Lab 2 assignment on Canvas:
 
 Quoted instructions from the Lab 3 assignment on Canvas:
 
->Continue to build off of your lab 02 by adding additional functionality to your About Me Guessing Game. Work in the same repository as you did for Lab 2, and modify your README.md file to describe your project with the new features you are adding.
+>Continue to build off of your lab 2 submission by adding additional functionality to your About Me guessing game. Work in the same repository as you did for Lab 2, and modify your README.md file to describe your project with the new features you are adding.
 >
->As a user, I would like to view a series of data related to the site owners interest so that the I can quickly view more information about them. Create a “Top Ten” at the bottom of your HTML page as an ordered list in HTML. Some ideas that you can include could be top ten movies, top ten favorite places, or top ten places to visit. You may choose to do whatever top ten list that you wish. Convert your work experience and education summary into an unordered list using HTML
+>Convert your work experience and education summary into an unordered list using HTML.
+>
+>As a user, I would like to view a series of data related to the site owner's interests so that the I can quickly view the new information. Create a “Top Ten” at the bottom of your HTML page as an ordered list in HTML. Some ideas that you can include could be ten movies, ten favorite places, or ten places to visit. You may choose to do whatever top ten list that you wish.
 >
 >As a user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner. Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number. Indicates through an alert if the guess is “too high” or “too low”. It should give the user exactly four opportunities to get the correct answer. After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 >
@@ -77,23 +79,23 @@ Quoted instructions from the Lab 4 assignment on Canvas:
 >
 >Be sure to follow these instructions VERY carefully.
 >
->Note: Before starting these steps, make sure that both of your repositories are ‘clean’: in other words, everything is committed and pushed so that both the remote and local versions of your projects are in sync. This will prevent potential problems later.
+>Note: Before starting these steps, make sure that both of your repositories are ‘clean’. In other words, everything is committed and pushed so that both the remote and local versions of your projects are in sync. This will prevent potential problems later.
 >
 >Decide whose code you will work on first. The owner of that code (who will be the Navigator) provides the link to their GitHub repo to the other member of the pair (who will be the Driver). You can send this link over Slack.
 >
->The Driver follows the link to that repo and creates a fork of the repo in GitHub like we did in class.
+>The Driver follows the link to that repo and creates a fork of the repo in GitHub like we did in lecture.
 >
->The Driver then goes to their fork of the repo (the URL should have the Driver’s GitHub name in it) and copies the link to that repo (the link have the Driver’s GitHub name in it and should end in .git).
+>The Driver then goes to their fork of the repo (the URL should have the Driver’s GitHub name in it) and copies the link to that repo (the link should have the Driver’s GitHub name in it and should end in .git).
 >
->Inside of the Driver’s main work directory on their laptop, make a directory with your partner’s name and then navigate (cd) into it. From there, enter the command git clone the-link-you-copied. That will create a local version of the forked repo on the Driver’s laptop.
+>Inside of the Driver’s main work directory on their laptop, make a directory with your partner’s name and then navigate (cd) into it. From there, enter the command `git clone the-link-you-copied`. That will create a local version of the forked repo on the Driver’s laptop.
 >
->cd into that directory and enter code . in the terminal to open all of the files in VSCode.
+>cd into that directory and enter `code .` in the terminal to open all of the files in VSCode.
 >
 >**Start working on the code!**
 >
 >2. Extend and Refine
 >
->You’ll be making some edits to each other’s sites. After each bit of work is completed (in other words, after each successful modification of a single question), be sure to do an add-commit-push cycle (a-c-p) to place the code on GitHub and preserve a versioned history of your work.
+>You’ll be making some edits to each other’s websites. After each bit of work is completed (in other words, after each successful modification of a single question), be sure to do an add-commit-push cycle (a-c-p) to place the code on GitHub and preserve a versioned history of your work.
 >
 >Move the logic for all questions into functions: In this class we learned about functions, and now we’ll move the logic for the individual questions into separate functions, and call those functions to run the game.
 >
@@ -136,9 +138,9 @@ Quoted instructions from the Lab 4 assignment on Canvas:
 
 Quoted instructions from the Lab 5b assignment on Canvas:
 
->Apply finishing touches to your About Me web site. Make sure your final app meets all of the requirements for this project.
+>Apply finishing touches to your About Me website. Make sure your final app meets all of the requirements for this project.
 >
->Deploy your app to GitHub Pages and add any additional final touches to your CSS. Run a Lighthouse report making sure your site scores between the 50-65 range and add a screenshot of your score to your README.md. Make sure your app is complete and meets all of the requirements from the prior labs. Remove any commented out code or console logs including any commented out console logs that were used in the questionnaire.
+>Deploy your app to GitHub Pages and add any additional final touches to your CSS. Run a Lighthouse report making sure your site scores between the 50-65 range and add a screenshot of your score to your README.md. Make sure your app is complete and meets all of the requirements from the prior labs. Remove any commented out console logs that were used in the questionnaire.
 
 <br>
 
@@ -176,7 +178,7 @@ Quoted instructions from the Lab 5b assignment on Canvas:
 #### 📓 Lab 4 - Pair Programming Submission Notes:
 
 I worked with Immanuel Shin.
-Since I had not yet finished Lab 3 at the time of this lab, the instructor gave permission for my code being worked on to be my Lab 3 assignment instead of the new coding challenges above.
+Since I had not yet finished Lab 3 at the time of this lab, the instructor gave permission for my code being worked on to be my Lab 3 assignment.
 
 I was Navigator (I said what to write while he was the one writing it) on my Lab 3 assignment: https://github.com/Myra-Sea/AboutMeLinks to an external site. 
 I was Driver (I wrote the code that he told me to write) on his Lab 4 assignment:  https://github.com/Myra-Sea/PairProgrammingLinks to an external site. 
