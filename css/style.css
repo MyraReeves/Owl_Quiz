@@ -4,6 +4,7 @@ header {
     font-size: 40px;
     margin: 5px;
     border: black solid 10px;
+    text-align: center;
 }
 
 #topBox {
