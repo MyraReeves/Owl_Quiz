@@ -6,7 +6,7 @@ if (nme === 'Badger') {
     alert('Awwww! Hey, baby!!! New questions have been added at the end!  I love you!')
 }
 else {
-    alert('Hello there ' + nme + '!  I heard you came here to learn more about me.  So let us play a guessing game!  Please answer each of the following questions with either "yes" or "no"');
+    alert('Hello there ' + nme + '!  I heard you came here to test your knowledge of owls!  So let us play a guessing game!  Please answer each of the following questions with either "yes" or "no"');
 }
 
 let counter = 0;
@@ -39,6 +39,19 @@ else if (remote === 'yes') {
 }
 else {
     alert('That is not a valid response.  Please reply to these questions only with either the word "yes" or the word "no"!')
+}
+
+let owlNecks = prompt('True or False:  To look at something that is circling around behind them without moving their bodies, owls can turn their heads 360 degrees around on their necks?')
+owlNecks = owlNecks.toLowerCase();
+if (owlNecks === 'false'){
+    alert('You are correct! The most that an owl can comfortably turn its head is about 270 degrees.');
+    counter += 1;
+}
+else if (owlNecks === 'true') {
+    alert('FALSE! ')
+}
+else {
+    alert('That is not a valid response. Please reply with either TRUE or FALSE')
 }
 
 
@@ -149,4 +162,4 @@ for (let attempt = 1; attempt <= maxAttempts; attempt++){
 
 alert('The correct possible answers were: ' + swords);
 
-alert('That was the last question. Thank you for playing, ' + nme + '!  The number of questions you got correct today was ' + counter + ' out of 8!  Continue onward!  The portal to my page is now open to you!');
+alert('That was the last question. Thank you for playing, ' + nme + '!  The number of questions you got correct today was ' + counter + ' out of 9!  Continue onward!  The portal to learn more about owls is now open!');
