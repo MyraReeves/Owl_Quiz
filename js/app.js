@@ -48,7 +48,7 @@ if (owlNecks === 'false'){
     counter += 1;
 }
 else if (owlNecks === 'true') {
-    alert('FALSE! ')
+    alert("FALSE!  The typical bird has a 180 degree range of movement.  Some owls have 270 degrees of motion, but none have more than that!  Owls are unable to move their eyes much within the socket, and are therefore dependent on turning their entire head in order to see in different directions.  Luckily for them, birds have two to three times as many neck vertebrae as humans (swans have 24, but even tiny hummingbirds have 14, whereas humans only have 7).  Additionally, in owls the holes inside those neck vertebrae are about 10 times wider than the arteries passing thru them.")
 }
 else {
     alert('That is not a valid response. Please reply with either TRUE or FALSE')
