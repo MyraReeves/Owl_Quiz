@@ -82,11 +82,11 @@ for (let attempt = 1; attempt <= maxTries; attempt++){
         break;
     }
     else {
-        alert("Keep guessing!  Make sure your answer is only one word");
+        alert("Keep guessing!  Make sure your answer is only one word long");
     }
 }
 
-alert('In addition to the Americas (Canada, Mexico, & Panama), I have also visited: ' + countries);
+alert('The most common terms used for a group of owls are: ' + groupOfOwls);
 
 
 let skydive = prompt('Have I ever jumped out of a perfectly good airplane in order to plummet thru the sky?');
