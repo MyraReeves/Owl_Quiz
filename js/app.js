@@ -75,8 +75,9 @@ let maxTries = 4;
 
 for (let attempt = 1; attempt <= maxTries; attempt++){
     let groupOfOwlsAnswer = prompt('There are several different words that can be used to mean a group of owls.  Type one of the common terms for a group of owls here: ');
+    groupOfOwlsAnswer = groupOfOwlsAnswer.toLowerCase();
 
-    if (groupOfOwls.includes(groupOfOwlsAnswer).toLowerCase()) {
+    if (groupOfOwls.includes(groupOfOwlsAnswer)) {
         alert("Congratulations! That is indeed a common collective noun for a group of owls!");
         counter += 1;
         break;
