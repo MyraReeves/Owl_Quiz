@@ -70,19 +70,19 @@ else {
 }
 
 
-let countries = ["New Zealand" , "England" , "Iceland" , "Italy"];
+let groupOfOwls = ["parliament" , "wisdom", "congress", "hooting", "stare", "silence"];
 let maxTries = 4;
 
 for (let attempt = 1; attempt <= maxTries; attempt++){
-    let travel = prompt('In addition to the Americas, guess a country I have visited (I mean outside of an airport). You will have up to 4 tries to guess one right');
+    let groupOfOwlsAnswer = prompt('There are several different words that can be used to mean a group of owls.  Type one of the common terms for a group of owls here: ');
 
-    if (countries.includes(travel)) {
-        alert("Congratulations! You guessed one of them correctly!");
+    if (groupOfOwls.includes(groupOfOwlsAnswer).toLowerCase()) {
+        alert("Congratulations! That is indeed a common collective noun for a group of owls!");
         counter += 1;
         break;
     }
     else {
-        alert("Keep guessing!");
+        alert("Keep guessing!  Make sure your answer is only one word");
     }
 }
 
