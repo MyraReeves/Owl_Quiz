@@ -6,24 +6,24 @@ if (nme === 'Badger') {
     alert('Awwww! Hey, baby!!! New questions have been added at the end!  I love you!')
 }
 else {
-    alert('Hello there ' + nme + '!  I heard you came here to test your knowledge of owls!  So let us play a guessing game!  Please answer each of the following questions with either "yes" or "no"');
+    alert('Hello there ' + nme + '!  I heard you came here to test your knowledge of owls!  So let us play a guessing game!  Please answer each of the following questions...');
 }
 
 let counter = 0;
 
-//I refactored the later instances to the more efficient method shown in lecture of changing a variable to lowercase, but I wanted to leave this one as an example of the first way to do it. This one is the way that the internet had shown me to do it. 
-let age = prompt('Do you think I am over the age of 40?');
-console.log('When asked whether they thought I was older than 40, the user answered with ' + age)
-let age2 = age.toLowerCase();
-if (age2 === 'yes') {
-    alert('Yes, you are right, ' + nme + '! I am older than 40!');
+//I refactored the later instances to the more efficient method shown in lecture of changing a variable to lowercase, but I wanted to leave this one as an example of the first way to do it. This one is the way that internet examples had shown me to do it. 
+let wisdomQuestion = prompt('Ever since ancient times, especially in Native American and Greek mythology, owls have been associated with wisdom.  True or False, that reputation is due to their superior intellect beyond most other birds?');
+console.log('When asked about owl intelligence, the user answered with: ' + wisdomQuestion)
+let wisdomAnswer = wisdomQuestion.toLowerCase();
+if (wisdomAnswer === 'false') {
+    alert('You are correct, ' + nme + '! Owls have scored low on problem-solving and other intelligence tests.  When measured using human intelligence standards, there are several types of birds that are considered far more intelligent than owls.  Instead, owls earned their reputation of being "wise" due to their nocturnal habits, superior hearing, and excellent nighttime vision!');
     counter += 1;
 }
-else if (age2 === 'no') {
-    alert('I am sorry to say that you are wrong. I am, in fact, older than 40.');
+else if (wisdomAnswer === 'true') {
+    alert('Sadly, your answer is incorrect. Owls have scored low on problem-solving and other intelligence tests.  When measured using human intelligence standards, there are several types of birds that are considered far more intelligent than owls.  Instead, owls earned their reputation of being "wise" due to their nocturnal habits, superior hearing, and excellent nighttime vision!');
 }
 else {
-    alert('That is not a valid response.  Please reply to these questions with only either the word "yes" or the word "no"!');
+    alert('That is not a valid response.  Please reply to these questions with only either the word "true" or the word "false"!');
 }
 
 //Refactoring the code to the more efficient method starts here.
